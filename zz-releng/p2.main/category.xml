@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <category-def name="org.toxsoft.skf.onews.releng.category" label="org.toxsoft.skf.onews.releng Category">
+      <description>
+         org.toxsoft.skf.onews.releng Category
+      </description>
+   </category-def>
+   <bundle id="org.toxsoft.skf.onews.lib"/>
+   <bundle id="org.toxsoft.skf.onews.gui"/>
+   <bundle id="org.toxsoft.skf.onews.mws"/>
+
+   <!-- sources -->
+   <bundle id="org.toxsoft.skf.onews.lib.source"/>
+   <bundle id="org.toxsoft.skf.onews.gui.source"/>
+   <bundle id="org.toxsoft.skf.onews.mws.source"/>
+
+</site>
