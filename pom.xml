@@ -514,6 +514,8 @@
       </build>
       <modules>
         <!-- TODO rcp-библиотеки -->
+        <module>org.toxsoft.skf.onews.gui</module>
+        <module>org.toxsoft.skf.onews.mws</module>
 
         <module>zz-releng/p2.rcp</module>
         <module>zz-releng/ant.rcp</module>
@@ -565,8 +567,6 @@
   </profiles>
   <modules>
     <module>org.toxsoft.skf.onews.lib</module>
-    <module>org.toxsoft.skf.onews.gui</module>
-    <module>org.toxsoft.skf.onews.mws</module>
 
     <module>zz-releng/p2.main</module>
     <module>zz-releng/ant.main</module>

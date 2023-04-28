@@ -6,12 +6,8 @@
       </description>
    </category-def>
    <bundle id="org.toxsoft.skf.onews.lib"/>
-   <bundle id="org.toxsoft.skf.onews.gui"/>
-   <bundle id="org.toxsoft.skf.onews.mws"/>
 
    <!-- sources -->
    <bundle id="org.toxsoft.skf.onews.lib.source"/>
-   <bundle id="org.toxsoft.skf.onews.gui.source"/>
-   <bundle id="org.toxsoft.skf.onews.mws.source"/>
 
 </site>

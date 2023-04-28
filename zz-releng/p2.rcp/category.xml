@@ -6,10 +6,12 @@
       </description>
    </category-def>
    <!-- TODO: -->
-   <!-- <bundle id="org.toxsoft.skf.onews.???"/> -->
+   <bundle id="org.toxsoft.skf.onews.gui"/>
+   <bundle id="org.toxsoft.skf.onews.mws"/>
 
    <!-- sources -->
    <!-- TODO: -->
-   <!-- <bundle id="org.toxsoft.skf.onews.???.source"/> -->
+   <bundle id="org.toxsoft.skf.onews.gui.source"/>
+   <bundle id="org.toxsoft.skf.onews.mws.source"/>
 
 </site>

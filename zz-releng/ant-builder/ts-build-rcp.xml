@@ -9,8 +9,16 @@
   <!-- загрузка общих параметров -->
   <loadproperties srcFile="${ts-scripts-dir}/ts-build-commons.properties" />
 
-  <!-- директория собранных плагинов -->
+  <!-- перед вызовом общих скриптов сборки следует задать директории назначения библиотек и плагинов -->
+  <property name="ts-dest-dir-libs" location="../${ts.target-skf-onews-lib}" />
   <property name="ts-dest-dir-plugins" location="../${ts.target-skf-onews-rcp}" />
+
+  <!-- ЦЕЛЬ: lib.jar библиотек -->
+  <!-- TODO: -->
+  <target name="build-lib-jar" depends="clean" description="Сборка общих плагинов">
+    <ant dir="../../org.toxsoft.skf.onews.gui" antfile="${ts-scripts-dir}/ts-build-lib.xml" target="build-lib-jar" />
+    <ant dir="../../org.toxsoft.skf.onews.mws" antfile="${ts-scripts-dir}/ts-build-lib.xml" target="build-lib-jar" />
+  </target>
 
   <!-- ЦЕЛЬ: сборка -->
   <target name="build" depends="clean" description="Сборка общих плагинов">
@@ -20,7 +28,8 @@
                        exportSource="true"
                        exportSourceBundle="false"
                        exportType="directory"
-                       plugins="org.toxsoft.skf.onews.???"
+                       plugins="org.toxsoft.skf.onews.gui,
+                                org.toxsoft.skf.onews.mws"
                        useworkspacecompiledclasses="true"
                        useJARFormat="true" />
   </target>
