@@ -117,8 +117,6 @@ public final class OneWsRule
   // API
   //
 
-  // TODO TRANSLATE
-
   /**
    * Returns abilities filter based on {@link #filterParams}.
    *
