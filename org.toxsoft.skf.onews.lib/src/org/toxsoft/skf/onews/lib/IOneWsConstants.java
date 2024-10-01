@@ -23,7 +23,7 @@ import org.toxsoft.uskat.core.api.sysdescr.dto.*;
 import org.toxsoft.uskat.core.api.users.*;
 import org.toxsoft.uskat.core.impl.dto.*;
 
-// TODO TRANSLATE
+// TODO TRANSLATE.
 
 /**
  * Constants f the service {@link ISkOneWsService}.
